@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .database import engine,Base
+from app.database import engine,Base
 from .routers import auth,todos,admin,users
 
 app=FastAPI()
